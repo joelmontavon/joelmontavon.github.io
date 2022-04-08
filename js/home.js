@@ -26,7 +26,7 @@ h2.large {
 
 .column {
   float: left;
-  width: 50%;
+  /*width: 50%;*/
 }
 
 .card {
@@ -46,15 +46,15 @@ h2.large {
 
 .row {
   display: flex;
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
 }
 
 .side {
-  max-width: 55%;
+  max-width: 35%;
 }
 
 .main {
-  max-width: 35%;
+  max-width: 55%;
 }
 
 .item-wrapper  {
@@ -129,7 +129,7 @@ code > .madlib {
 }
 </style>
 
-<h1 class="header reveal center">Welcome</h1>
+<!--<h1 class="header reveal center">Welcome</h1>-->
 
 <div class="row spacer">
    <div class="item-wrapper" style="width: 500px; align-content: center;">
@@ -140,9 +140,9 @@ code > .madlib {
 </div>
 
 <div class="row spacer">
-  <div class="main">
-    <div class="item-wrapper">
-      <div class="item center">
+  <div>
+    <div class="item" style="height: 100vh; padding-top; 100px; padding-bottom: 100px;">
+       <h2 class="work-exp large reveal">About Me</h2>
         <p class="reveal">I am a pharmacist. I have a business degree. I love computers. And, I am passionate about using data and technology to solve healthcare's problems.</p>
         <p class="reveal">I like to take on interesting problems, develop creative solutions, and learn along the way.</p>
       </div>
@@ -152,22 +152,60 @@ code > .madlib {
 
 
 <div class="row spacer">
-<div class="side">
+<!--<div class="side">
   <div class="item-wrapper full-height">
     <div class="item sticky">
-      <div id="cloud">
+      <div style="font-size: 32px;">
+      <span><a href=".edu">PharmD</a></span><br>
+      <span><a href=".edu">MBA</a></span><br>
+      <span><a href=".edu">The Ohio State University</a></span><br>
+      <span><a href=".edu">Buckeyes</a></span><br>
+      <span><a href=".work-exp">Pharmacist</a></span><br>
+      <span><a href=".work-exp">Clinical Guidelines</a></span><br>
+      <span><a href=".work-exp">Pharmacy Operations and Workflow</a></span><br>
+      <span><a href=".work-exp">Healthcare Data</a></span><br>
+      <span><a href=".work-exp">Performance Measurement</a></span><br>
+      <span><a href=".work-exp">Medicare Part D</a></span><br>
+      <span><a href=".work-exp">Health Plan</a></span><br>
+      <span><a href=".work-exp">PBM</a></span><br>
+      <span><a href=".work-exp">Pharmacy</a></span><br>
+      <span><a href=".work-exp">Health System</a></span><br>
+      <span><a href=".work-exp">Measure Developer</a></span><br>
+      <span><a href=".tech">Data Scientist</a></span><br>
+      <span><a href=".tech">Programmer</a></span><br>
+      <span><a href=".tech">Data Engineer</a></span><br>
+      <span><a href=".tech">Data Analyst</a></span><br>
+      <span><a href=".tech">SAS</a></span><br>
+      <span><a href=".tech">SQL</a></span><br>
+      <span><a href=".tech">Python</a></span><br>
+      <span><a href=".tech">VBA</a></span><br>
+      <span><a href=".tech">CQL</a></span><br>
+      <span><a href=".tech">JavaScript</a></span><br>
+      <span><a href=".tech">Node.js</a></span><br>
+      <span><a href=".tech">C++</a></span><br>
+      <span><a href=".tech">FHIR</a></span><br>
+      <span><a href=".tech">Microsoft Office</a></span><br>
+      <span><a href=".tech">Tableau</a></span><br>
+      <span><a href=".tech">Measure Authoring Tools</a></span><br>
+      <span><a href=".tech">Bonnie</a></span><br>
+      <span><a href=".hobbies">Cooking</a></span><br>
+      <span><a href=".hobbies">Baking</a></span><br>
+      <span><a href=".hobbies">Biking</a></span><br>
+      <span><a href=".hobbies">Brewing Beer</a></span><br>
+      <span><a href=".hobbies">Drinking Beer</a></span><br>
       </div>
     </div>
   </div>
-</div>
+</div>-->
 
-<div class="main left">
+<!--<div class="main left">-->
+<div class="left">
   <div class="item-wrapper">
     <div class="item" style="height: 100vh; padding-top; 100px; padding-bottom: 100px;">
        <h2 class="edu large reveal" style="margin-top: 250px;">Education</h2>
        <div class="row">
-         <div class="column">
-           <img src="img/osu.jpg" style="margin: 16px;"></img>
+         <div class="column" style="align-items:center;">
+           <img src="img/osu.jpg" style="margin: 16px 40px;"></img>
          </div>
          <div class="column">
             <h3 class="reveal">The Ohio State University</h3>
@@ -181,7 +219,7 @@ code > .madlib {
         <p class="reveal">I have worked in pharmacies, health plans, a PBM, a health system, and currently at a measure developer. Along the way, I have had a broad exposure in clinical guidelines, formulary, pharmacy operations and workflow, clinical programs, pharmacy data, performance measurement, and Medicare Part D.</p>
         <div class="row">
           <div class="column">
-            <img src="img/pqa.jfif" style="margin: 16px;"></img>
+            <img src="img/pqa.jfif" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
           </div>
           <div class="column">
              <h3 class="reveal">Director, Analytics and Performance Measurement</h3>
@@ -190,7 +228,7 @@ code > .madlib {
          </div>
          <div class="row">
            <div class="column">
-             <img src="img/advocate.jfif" style="margin: 16px;"></img>
+             <img src="img/advocate.jfif" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
            </div>
            <div class="column">
               <h3 class="reveal">Pharmacy Information Technology Analyst</h3>
@@ -199,7 +237,7 @@ code > .madlib {
           </div>
           <div class="row">
             <div class="column">
-              <img src="img/aetna.jfif" style="margin: 16px;"></img>
+              <img src="img/aetna.jfif" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
             </div>
             <div class="column">
                <h3 class="reveal">Manager, Clinical Pharmacy</h3>
@@ -208,7 +246,7 @@ code > .madlib {
            </div>
            <div class="row">
              <div class="column">
-               <img src="img/optumrx.jfif" style="margin: 16px;"></img>
+               <img src="img/optumrx.jfif" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
              </div>
              <div class="column">
                 <h3 class="reveal">Medicare Quality Measures Manager</h3>
@@ -217,7 +255,7 @@ code > .madlib {
             </div>
             <div class="row">
               <div class="column">
-                <img src="img/emblemhealth.jfif" style="margin: 16px;"></img>
+                <img src="img/emblemhealth.jfif" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
               </div>
               <div class="column">
                  <h3 class="reveal">Manager, Medicare Pharmacy</h3>
@@ -230,50 +268,50 @@ code > .madlib {
         <p class="tech reveal">I love learning about the latest technologies just particularly interested in machine learning and natural language processing. Check out some of my projects:</p>
         <div class="row">
           <div class="column">
-            <img src="img/file_type_js_official.svg" style="margin: 16px;"></img>
+            <img src="img/file_type_js_official.svg" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
           </div>
           <div class="column">
              <h3 class="reveal">JavaScript</h3>
              <ul>
-               <li class="reveal"><a href="#pdc">PDC Calculator</a></li>
-               <li class="reveal"><a href="#med">Morphine Milligram Equivalents Calculator</img></a></li>
-               <li class="reveal"><a href="#statins">Statin Conversion Dosing Calculator</a></li>
-               <li class="reveal"><a href="#icd10">ICD-10 Explorer</a></li>
+               <li class="reveal"><a href=".#pdc">PDC Calculator</a></li>
+               <li class="reveal"><a href=".#med">Morphine Milligram Equivalents Calculator</img></a></li>
+               <li class="reveal"><a href=".#statins">Statin Conversion Dosing Calculator</a></li>
+               <li class="reveal"><a href=".#icd10">ICD-10 Explorer</a></li>
              </ul>
            </div>
          </div>
          <div class="row">
            <div class="column">
-             <img src="img/file_type_python.svg" style="margin: 16px;"></img>
+             <img src="img/file_type_python.svg" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
            </div>
            <div class="column">
               <h3 class="reveal">Python</h3>
               <ul>
-                <li class="reveal"><a href="#risk-adj">Risk Adjustment</a></li>
-                <li class="reveal"><a href="#cutpoints">Star Ratings Cutpoints</a></li>
+                <li class="reveal"><a href=".#risk-adj">Risk Adjustment</a></li>
+                <li class="reveal"><a href=".#cutpoints">Star Ratings Cutpoints</a></li>
               </ul>
             </div>
           </div>
           <div class="row">
             <div class="column">
-              <img src="img/file_type_sas.svg" style="margin: 16px;"></img>
+              <img src="img/file_type_sas.svg" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
             </div>
             <div class="column">
                <h3 class="reveal">SAS</h3>
                <ul>
-                 <li class="reveal"><a href="#pdc-sas">PDC with SAS</a></li>
+                 <li class="reveal"><a href=".#pdc-sas">PDC with SAS</a></li>
                </ul>
              </div>
            </div>
            <div class="row">
              <div class="column">
-               <img src="img/cql-logo.png" style="margin: 16px;"></img>
+               <img src="img/cql-logo.png" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
              </div>
              <div class="column">
                 <h3 class="reveal">CQL</h3>
                 <ul>
-                  <li class="reveal"><a href="#cql-camp">CQL Runner</a></li>
-                  <li class="reveal"><a href="#mat">Measure Authoring Tool</a></li>
+                  <li class="reveal"><a href=".#cql-camp">CQL Runner</a></li>
+                  <li class="reveal"><a href=".#mat">Measure Authoring Tool</a></li>
                 </ul>
               </div>
             </div>
@@ -282,29 +320,29 @@ code > .madlib {
        <h2 class="hobbies large reveal">Hobbies</h2>
         <p class="reveal">On top of being a computer nerd, I love to cook and bake, bike, walk my dog, and brew (and drink) my own beer.</p>
         <ul>
-          <li class="reveal"><a href="https://www.youtube.com/c/CarolineGirvan">Caroline Girvan</a></li>
-          <li class="reveal"><a href="https://www.youtube.com/c/Heatherrobertsoncom">Heather Robertson</a></li>
-          <li class="reveal"><a href="https://www.youtube.com/c/ClaireSaffitzxDessertPerson">Dessert Person</a></li>
-          <li class="reveal"><a href="https://www.youtube.com/playlist?list=PLKtIunYVkv_SUyXj_6Fe53okfzM9yVq1F">It's Alive with Brad</a></li>
-          <li class="reveal"><a href="https://www.youtube.com/c/JoshuaWeissman">Joshua Weissman</a></li>
-          <li class="reveal"><a href="https://vuejs.org/">Vue.js</a></li>
-          <li class="reveal"><a href="https://element-plus.org/en-US/">Element Plus</a></li>
-          <li class="reveal"><a href="https://www.youtube.com/c/DudeDad">Dude Dad</a></li>
-          <li class="reveal"><a href="https://www.michaelconnelly.com/series/#Bosch">Harry Bosch</a></li>
+          <li class="reveal"><a href=".https://www.youtube.com/c/CarolineGirvan">Caroline Girvan</a></li>
+          <li class="reveal"><a href=".https://www.youtube.com/c/Heatherrobertsoncom">Heather Robertson</a></li>
+          <li class="reveal"><a href=".https://www.youtube.com/c/ClaireSaffitzxDessertPerson">Dessert Person</a></li>
+          <li class="reveal"><a href=".https://www.youtube.com/playlist?list=PLKtIunYVkv_SUyXj_6Fe53okfzM9yVq1F">It's Alive with Brad</a></li>
+          <li class="reveal"><a href=".https://www.youtube.com/c/JoshuaWeissman">Joshua Weissman</a></li>
+          <li class="reveal"><a href=".https://vuejs.org/">Vue.js</a></li>
+          <li class="reveal"><a href=".https://element-plus.org/en-US/">Element Plus</a></li>
+          <li class="reveal"><a href=".https://www.youtube.com/c/DudeDad">Dude Dad</a></li>
+          <li class="reveal"><a href=".https://www.michaelconnelly.com/series/#Bosch">Harry Bosch</a></li>
         </ul>
     </div>
   </div>
 </div>
 </div>
 
-<div class="row spacer">
+<div class="row spacer" style="justify-content: space-evenly;">
   <div class="main">
     <div class="item-wrapper">
       <div class="item center">
       <span style="font-size: 72px; text-align: center;">
-        <a href="mailto:thetechiepharmacist@gmail.com" target="_blank"><img class="icon" width="60" height="60" src="https://i.pinimg.com/564x/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.jpg"></img></a>
-        <a href="https://www.linkedin.com/in/joel-montavon" target="_blank"><img class="icon" width="60" height="60" src="https://content.linkedin.com/content/dam/me/brand/en-us/brand-home/logos/In-Blue-Logo.png.original.png"></img></a>
-        <a href="https://github.com/joelmontavon" target="_blank"><img class="icon" width="60" height="60" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img></a>
+        <a href=".mailto:thetechiepharmacist@gmail.com" target="_blank"><img class="icon" width="60" height="60" src="https://i.pinimg.com/564x/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.jpg"></img></a>
+        <a href=".https://www.linkedin.com/in/joel-montavon" target="_blank"><img class="icon" width="60" height="60" src="https://content.linkedin.com/content/dam/me/brand/en-us/brand-home/logos/In-Blue-Logo.png.original.png"></img></a>
+        <a href=".https://github.com/joelmontavon" target="_blank"><img class="icon" width="60" height="60" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img></a>
       </span>
       </div>
     </div>
@@ -506,7 +544,7 @@ class HomePage extends HTMLElement {
     }
   }
 
-    drawWordCloud();
+    //drawWordCloud();
     shrinkAll();
     gsap.registerPlugin(ScrollTrigger);
 
