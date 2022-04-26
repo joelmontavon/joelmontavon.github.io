@@ -305,6 +305,17 @@ code > .madlib {
            </div>
            <div class="row">
              <div class="column">
+               <img src="img/file_type_sql.svg" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
+             </div>
+             <div class="column">
+                <h3 class="reveal">SQL</h3>
+                <ul>
+                  <li class="reveal"><a href=".#pdc-sql">PDC with SQL</a></li>
+                </ul>
+              </div>
+            </div>
+           <div class="row">
+             <div class="column">
                <img src="img/cql-logo.png" style="height: 100px; width: 100px; margin: 16px 40px;"></img>
              </div>
              <div class="column">
