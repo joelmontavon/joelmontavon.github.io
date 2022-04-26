@@ -40,6 +40,9 @@ routes.config (['$routeProvider',
     when('/pdc-sas', {
 		templateUrl: '/partials/pdc-sas.html'
 	  }).
+    when('/pdc-sql', {
+		templateUrl: '/partials/pdc-sql.html'
+	  }).
     when('/mat', {
 		templateUrl: '/partials/mat.html'
 	  }).
