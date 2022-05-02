@@ -289,6 +289,7 @@ code > .madlib {
               <ul>
                 <li class="reveal"><a href=".#risk-adj">Risk Adjustment</a></li>
                 <li class="reveal"><a href=".#cutpoints">Star Ratings Cutpoints</a></li>
+                <li class="reveal"><a href=".#pdc-python">PDC with Python</a></li>
               </ul>
             </div>
           </div>
