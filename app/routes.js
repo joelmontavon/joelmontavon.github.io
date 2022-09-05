@@ -49,6 +49,9 @@ routes.config (['$routeProvider',
     when('/mat', {
 		templateUrl: '/partials/mat.html'
 	  }).
+    when('/fund-of-interop', {
+		templateUrl: '/partials/fund-of-interop.html'
+	  }).
     when('/star-ratings-trends', {
 		templateUrl: '/partials/star-ratings-trends.html'
 	  }).
