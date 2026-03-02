@@ -273,10 +273,10 @@ code > .madlib {
           <div class="column">
              <h3 class="reveal">JavaScript</h3>
              <ul>
-               <li class="reveal"><a href=".#pdc">PDC Calculator</a></li>
-               <li class="reveal"><a href=".#med">Morphine Milligram Equivalents Calculator</img></a></li>
-               <li class="reveal"><a href=".#statins">Statin Conversion Dosing Calculator</a></li>
-               <li class="reveal"><a href=".#icd10">ICD-10 Explorer</a></li>
+               <li class="reveal"><a href="#pdc">PDC Calculator</a></li>
+               <li class="reveal"><a href="#med">Morphine Milligram Equivalents Calculator</a></li>
+               <li class="reveal"><a href="#statins">Statin Conversion Dosing Calculator</a></li>
+               <li class="reveal"><a href="#icd10">ICD-10 Explorer</a></li>
              </ul>
            </div>
          </div>
@@ -287,9 +287,9 @@ code > .madlib {
            <div class="column">
               <h3 class="reveal">Python</h3>
               <ul>
-                <li class="reveal"><a href=".#risk-adj">Risk Adjustment</a></li>
-                <li class="reveal"><a href=".#cutpoints">Star Ratings Cutpoints</a></li>
-                <li class="reveal"><a href=".#pdc-python">PDC with Python</a></li>
+                <li class="reveal"><a href="#risk-adj">Risk Adjustment</a></li>
+                <li class="reveal"><a href="#cutpoints">Star Ratings Cutpoints</a></li>
+                <li class="reveal"><a href="#pdc-python">PDC with Python</a></li>
               </ul>
             </div>
           </div>
@@ -300,7 +300,7 @@ code > .madlib {
             <div class="column">
                <h3 class="reveal">SAS</h3>
                <ul>
-                 <li class="reveal"><a href=".#pdc-sas">PDC with SAS</a></li>
+                 <li class="reveal"><a href="#pdc-sas">PDC with SAS</a></li>
                </ul>
              </div>
            </div>
@@ -311,7 +311,7 @@ code > .madlib {
              <div class="column">
                 <h3 class="reveal">SQL</h3>
                 <ul>
-                  <li class="reveal"><a href=".#pdc-sql">PDC with SQL</a></li>
+                  <li class="reveal"><a href="#pdc-sql">PDC with SQL</a></li>
                 </ul>
               </div>
             </div>
@@ -322,8 +322,8 @@ code > .madlib {
              <div class="column">
                 <h3 class="reveal">CQL</h3>
                 <ul>
-                  <li class="reveal"><a href=".#cql-camp">CQL Runner</a></li>
-                  <li class="reveal"><a href=".#mat">Measure Authoring Tool</a></li>
+                  <li class="reveal"><a href="#cql-camp">CQL Runner</a></li>
+                  <li class="reveal"><a href="#mat">Measure Authoring Tool</a></li>
                 </ul>
               </div>
             </div>
@@ -332,15 +332,15 @@ code > .madlib {
        <h2 class="hobbies large reveal">Hobbies</h2>
         <p class="reveal">On top of being a computer nerd, I love to cook and bake, bike, walk my dog, and brew (and drink) my own beer.</p>
         <ul>
-          <li class="reveal"><a href=".https://www.youtube.com/c/CarolineGirvan">Caroline Girvan</a></li>
-          <li class="reveal"><a href=".https://www.youtube.com/c/Heatherrobertsoncom">Heather Robertson</a></li>
-          <li class="reveal"><a href=".https://www.youtube.com/c/ClaireSaffitzxDessertPerson">Dessert Person</a></li>
-          <li class="reveal"><a href=".https://www.youtube.com/playlist?list=PLKtIunYVkv_SUyXj_6Fe53okfzM9yVq1F">It's Alive with Brad</a></li>
-          <li class="reveal"><a href=".https://www.youtube.com/c/JoshuaWeissman">Joshua Weissman</a></li>
-          <li class="reveal"><a href=".https://vuejs.org/">Vue.js</a></li>
-          <li class="reveal"><a href=".https://element-plus.org/en-US/">Element Plus</a></li>
-          <li class="reveal"><a href=".https://www.youtube.com/c/DudeDad">Dude Dad</a></li>
-          <li class="reveal"><a href=".https://www.michaelconnelly.com/series/#Bosch">Harry Bosch</a></li>
+          <li class="reveal"><a href="https://www.youtube.com/c/CarolineGirvan">Caroline Girvan</a></li>
+          <li class="reveal"><a href="https://www.youtube.com/c/Heatherrobertsoncom">Heather Robertson</a></li>
+          <li class="reveal"><a href="https://www.youtube.com/c/ClaireSaffitzxDessertPerson">Dessert Person</a></li>
+          <li class="reveal"><a href="https://www.youtube.com/playlist?list=PLKtIunYVkv_SUyXj_6Fe53okfzM9yVq1F">It's Alive with Brad</a></li>
+          <li class="reveal"><a href="https://www.youtube.com/c/JoshuaWeissman">Joshua Weissman</a></li>
+          <li class="reveal"><a href="https://vuejs.org/">Vue.js</a></li>
+          <li class="reveal"><a href="https://element-plus.org/en-US/">Element Plus</a></li>
+          <li class="reveal"><a href="https://www.youtube.com/c/DudeDad">Dude Dad</a></li>
+          <li class="reveal"><a href="https://www.michaelconnelly.com/series/#Bosch">Harry Bosch</a></li>
         </ul>
     </div>
   </div>
@@ -352,9 +352,9 @@ code > .madlib {
     <div class="item-wrapper">
       <div class="item center">
       <span style="font-size: 72px; text-align: center;">
-        <a href=".mailto:thetechiepharmacist@gmail.com" target="_blank"><img class="icon" width="60" height="60" src="https://i.pinimg.com/564x/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.jpg"></img></a>
-        <a href=".https://www.linkedin.com/in/joel-montavon" target="_blank"><img class="icon" width="60" height="60" src="https://content.linkedin.com/content/dam/me/brand/en-us/brand-home/logos/In-Blue-Logo.png.original.png"></img></a>
-        <a href=".https://github.com/joelmontavon" target="_blank"><img class="icon" width="60" height="60" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img></a>
+        <a href="mailto:thetechiepharmacist@gmail.com" target="_blank"><img class="icon" width="60" height="60" src="https://i.pinimg.com/564x/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.jpg"></img></a>
+        <a href="https://www.linkedin.com/in/joel-montavon" target="_blank"><img class="icon" width="60" height="60" src="https://content.linkedin.com/content/dam/me/brand/en-us/brand-home/logos/In-Blue-Logo.png.original.png"></img></a>
+        <a href="https://github.com/joelmontavon" target="_blank"><img class="icon" width="60" height="60" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img></a>
       </span>
       </div>
     </div>

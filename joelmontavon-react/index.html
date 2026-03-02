@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Joel Montavon - Clinical Data Standards Lead specializing in healthcare data interoperability and performance measurement." />
+    <meta name="keywords" content="healthcare, data, interoperability, pharmacy, PDC, MED, star ratings, FHIR, CQL" />
+    <meta name="author" content="Joel Montavon" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Joel Montavon" />
+    <meta property="og:description" content="Clinical Data Standards Lead specializing in healthcare data interoperability." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://joelmontavon.github.io" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Joel Montavon</title>
+  </head>
+  <body>
+    <script>
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct URL and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new URL.
+      // When the SPA is loaded, the route will be handled by the React Router.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded +
+            l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

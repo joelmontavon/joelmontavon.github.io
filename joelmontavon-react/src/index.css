@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+
+    /* Terminal/Console theme colors - Light mode */
+    --terminal-bg: #0d1117;
+    --terminal-border: #30363d;
+    --terminal-text: #39ff14;
+    --terminal-prompt: #58a6ff;
+    --terminal-cursor: #39ff14;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+
+    /* Terminal/Console theme colors - Dark mode */
+    --terminal-bg: #0d1117;
+    --terminal-border: #30363d;
+    --terminal-text: #39ff14;
+    --terminal-prompt: #58a6ff;
+    --terminal-cursor: #39ff14;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Code blocks */
+pre {
+  @apply bg-muted rounded-lg p-4 overflow-x-auto;
+}
+
+code {
+  @apply font-mono text-sm;
+}
+
+/* Selection */
+::selection {
+  @apply bg-primary/20 text-foreground;
+}
+
+/* Terminal/Console Styles */
+.terminal-container {
+  background-color: var(--terminal-bg);
+  border-color: var(--terminal-border);
+  font-family: "JetBrains Mono", "Menlo", "Monaco", "Courier New", monospace;
+  min-width: 280px;
+  position: relative;
+}
+
+.terminal-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 24px;
+  background: linear-gradient(
+    to right,
+    #ff5f56 0%,
+    #ff5f56 8px,
+    transparent 8px,
+    transparent 12px,
+    #ffbd2e 12px,
+    #ffbd2e 20px,
+    transparent 20px,
+    transparent 24px,
+    #27c93f 24px,
+    #27c93f 32px,
+    transparent 32px
+  );
+  background-size: 100% 12px;
+  background-position: 12px 8px;
+  background-repeat: no-repeat;
+  border-radius: var(--radius) var(--radius) 0 0;
+  opacity: 0.8;
+}
+
+.terminal-container {
+  padding-top: 36px;
+}
+
+/* Terminal text glow effect */
+.text-terminal-text {
+  color: var(--terminal-text);
+  text-shadow: 0 0 5px var(--terminal-text);
+}
+
+.text-terminal-prompt {
+  color: var(--terminal-prompt);
+}
+
+.text-terminal-cursor {
+  color: var(--terminal-cursor);
+  text-shadow: 0 0 5px var(--terminal-cursor);
+}
+
+/* Terminal scanline effect (optional subtle effect) */
+.terminal-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.03),
+    rgba(0, 0, 0, 0.03) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  border-radius: inherit;
+}
